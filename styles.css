@@ -1,0 +1,67 @@
+body, html
+{
+    height:100%;
+}
+
+.white_text
+{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.centered_text
+{
+    text-align: center;
+}
+
+.background
+{
+    background-color:lightgreen;
+    background-size: cover;
+    height: 100px;
+    margin: -8px;
+    padding: 20px;
+}
+
+.divider_box
+{
+    background-color:paleturquoise;
+    height:auto;
+    margin: 12px;
+    padding: 20px;
+
+}
+.navigation_bar_color
+{
+    background-color:seagreen;
+    width: 80px;
+    padding: 10px;
+}
+
+.pale_box
+{
+    background-color:peachpuff;
+    border-top: 5px solid cadetblue;
+    padding: 10px;
+    margin: 22px;
+}
+
+.center_image
+{
+    background-image: url(volcano.jpg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.navigation_size
+{
+    font-size: 18px;
+}
+
+#navigation_bar
+{
+
+    margin: -10px;
+}
