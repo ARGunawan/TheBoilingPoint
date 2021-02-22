@@ -29,6 +29,16 @@ body, html
     padding: 20px;
 }
 
+.footer_background
+{
+    background-color:salmon;
+    background-size: cover;
+    width:auto;
+    height: 100px;
+    margin: -8px;
+    padding: 20px;
+}
+
 .navigation_bar_color
 {
     background-color:crimson;
