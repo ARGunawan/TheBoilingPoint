@@ -23,14 +23,6 @@ body, html
     padding: 20px;
 }
 
-.divider_box
-{
-    background-color:paleturquoise;
-    height:auto;
-    margin: 12px;
-    padding: 20px;
-
-}
 .navigation_bar_color
 {
     background-color:crimson;
@@ -40,11 +32,11 @@ body, html
 
 .pale_box
 {
-    background-color:lightgreen;
+    background-color:wheat;
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-top: 5px solid cornflowerblue;
+    border-top: 5px solid white;
     padding: 10px;
     margin: 22px;
 }
