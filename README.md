@@ -1,11 +1,3 @@
 # Group-5-Assignment-1
 
-Web Pages:
-
--About Page
-
--Lower your Carbon FootPrint
-
--Facts & Myths about Climate Change
-
--Support Eco Friendly Companies
+The release page link is through this website link https://argunawan.github.io/TheBoilingPoint/
