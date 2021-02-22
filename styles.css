@@ -1,0 +1,66 @@
+body, html
+{
+    height:100%;
+}
+
+.white_text
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
+.black_text
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+
+.centered_text
+{
+    text-align: center;
+}
+
+.background
+{
+    background-color:salmon;
+    background-size: cover;
+    height: 100px;
+    margin: -8px;
+    padding: 20px;
+}
+
+.navigation_bar_color
+{
+    background-color:crimson;
+    width: 80px;
+    padding: 10px;
+}
+
+.pale_box
+{
+    background-color:wheat;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 0px;
+}
+
+.center_image
+{
+    background-image: url(volcano.jpg);
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.navigation_size
+{
+    font-size: 18px;
+}
+
+#navigation_bar
+{
+
+    margin: -10px;
+}
