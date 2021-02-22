@@ -5,7 +5,7 @@ body, html
 
 .white_text
 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
 }
 
@@ -16,7 +16,7 @@ body, html
 
 .background
 {
-    background-color:lightgreen;
+    background-color:salmon;
     background-size: cover;
     height: 100px;
     margin: -8px;
@@ -33,15 +33,18 @@ body, html
 }
 .navigation_bar_color
 {
-    background-color:seagreen;
+    background-color:crimson;
     width: 80px;
     padding: 10px;
 }
 
 .pale_box
 {
-    background-color:peachpuff;
-    border-top: 5px solid cadetblue;
+    background-color:lightgreen;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 5px solid cornflowerblue;
     padding: 10px;
     margin: 22px;
 }
@@ -52,7 +55,7 @@ body, html
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 50%;
 }
 
 .navigation_size
