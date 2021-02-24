@@ -1,26 +1,35 @@
+<!--
+File: about.html
+Author: Caitlin-Dawn Sangcap
+Class: Web Development - Spring 2021
+Assignment 1 
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<!--linking the styling to the styles.css that Alfonso created-->
 		<link rel="stylesheet" href="styles.css">
 		<!-- General meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-		<!--Title of the project goes here-->
+		<!-- Labeling the tab that it opens-->
 		<title>About</title>
-		<!-- to link the css file to this .html file-->
 	</head>
 
 	<body>
 
+		<!--had to change the height for my page to make it look better-->
 		<div id ="heading" class="background" style="height: 110;">
 		<h1 class = "centered_text white_text"> The Boiling Point </h1>
         <div id ="navigation" class = "centered_text">
+        		<!--Linking the other pages to go to from the about page-->
             <a href = "https://argunawan.github.io/TheBoilingPoint/index" class = "white_text navigation_bar_color" target = "_self">Home</a>
             <a href = "https://argunawan.github.io/TheBoilingPoint/about" class = "white_text navigation_bar_color" target = "_self">About</a>
             <a href = "https://argunawan.github.io/TheBoilingPoint/carbon-footprint" class = "white_text navigation_bar_color" target = "_self">Carbon Footprint</a>
-            <a href = "https://argunawan.github.io/TheBoilingPoint/" class = "white_text navigation_bar_color" target = "_self">Eco-Friendly Companies</a>
+            <a href = "https://argunawan.github.io/TheBoilingPoint/ecoCompany" class = "white_text navigation_bar_color" target = "_self">Eco-Friendly Companies</a>
             <a href = "https://argunawan.github.io/TheBoilingPoint/FactsandMyths" class = "white_text navigation_bar_color" target = "_self">Facts & Myths</a>
         </div>
     </div>
@@ -28,7 +37,8 @@
     
     <div id = "words" class="pale_box" style="margin: -8px;">
 			<h1>About</h1>
-			<!--edited on 02/17/21 -->
+
+			<!--adding random words just to fill the page.-->
 			<p>Our goal for this project is to bring more attention to global warming. Given that majority of the world has switched over to online to keep in line with the social distancing laws, now is the time to work on our carbon footprint. Traveling isn't happening as much as it used to and being outdoors in wide spaces is encouraged more now than ever. Why not use this time to take care of the environment?</p>
 
 			<p>There are already movements to help replenish the trees that we have lost and to find more ecofriendly solutions to our everyday problems. Why not donate some money to rebuild some of the most spectacular scenary we have? In a way, we are investing in the future when the world finally opens up again.</p>
@@ -37,6 +47,7 @@
 			<h3 style="margin-left: 20px;">We are Boiling Point &copy, a Web Development small project team.</h3>
 			<h4 style="margin-left: 20px;">This project was made to showcase out HTML, CSS and JS skills.</h4>
 
+			<!--A list of all the members that worked on this assignment together-->
 			<p>Our team members:</p>
 			<div class="names" style="margin-left: 40px;">
 				<p> - Caitlin-Dawn Sangcap</p>
@@ -44,8 +55,53 @@
 				<p> - Ifte Ahmed</p>
 				<p> - James Yoo</p>
 			</div>
-			<br>
-		</div>
+			
+		
+            <h3>Donate to the Boiling Point Today!</h3>
+            <p> Spreading awareness of climate change helps others practice clean energy practices! The donations will help fund education programs in schools,focused on
+                environmental conservation and learning how clean energy is used. These programs are also done remotely, further conserving the much needed fossil fuel and
+                energy needed to travel on bus or car!
+            </p>
+
+            <form>
+                To donate, please follow and fill in the information below: 
+                <br>
+    
+                <ol>First Name: <input type="text"> </ol>
+                <ol>Last Name: <input type="text"></ol>
+                <ol>Phone Number: <input type="text"></ol>
+                <ol>Email Address: <input type="text"> </ol> 
+    
+                <p> To choose for a one time donation or a monthly donation, please choose one of the followiong options below: </p>
+                <ol>One Time Donation <input type = "checkbox"></ol>
+                <ol>Monthly Donation <input type = "checkbox"></ol>
+                <ol>Donation Amount: <input type = "text"></ol>
+                <ol>Cardholder Name: <input type="text"> </ol>
+                <ol>Credit Card: <input type="text"></ol>
+                <ol>Security Code: <input type="text"> </ol>
+                
+                <p>Expiration Date:</p>
+                <ol>Month: <input type = "text"></ol>
+                <ol>Year: <input type = "text"></ol>
+    
+                <input type="submit" onclick:>
+              </form>
+
+            <p>If you are unable to give a donation due to financial hardship, you can still contribute! Simply sharing this website and the many eco friendly companies listed 
+                helps spread the word on the growing issue of cliamte change. We firmly believe that education on sustainable practices and clean energy helps heal the planet one
+                step at a time! 
+            </p>
+
+            <br>
+		<!--adding a footer to the bottom of the page.-->
+		<div id ="heading" class = "footer_background">
+        <h1 class = "white_text ">Contact Us</h1>
+          <div>
+            <a class = "white_text centered_text navigation_bar_color">Phone: 553-998-8895</a>
+            <a class = "white_text centered_text navigation_bar_color">Email: esf@TheBoilingPoint.org</a>
+            <a class = "white_text centered_text navigation_bar_color">Mailing Address: The Boiling Point 3320 Boring, OG 2210</a>
+          </div>
+    </div>
 	</body>
 
 </html>
