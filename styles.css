@@ -1,6 +1,12 @@
 body, html
 {
     height:100%;
+    background-color:wheat;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* padding: 10px;
+    margin: 0px; */
 }
 
 .white_text
@@ -44,16 +50,6 @@ body, html
     background-color:crimson;
     width: 80px;
     padding: 10px;
-}
-
-.pale_box
-{
-    background-color:wheat;
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 10px;
-    margin: 0px;
 }
 
 .center_image
