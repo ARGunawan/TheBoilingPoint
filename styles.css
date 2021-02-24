@@ -52,11 +52,6 @@ body, html
     padding: 10px;
 }
 
-.pale_box
-{
-    /* took everything from this class to body because there was issues with the background color not showing for the whole page */
-}
-
 .center_image
 {
     background-image: url(volcano.jpg);
